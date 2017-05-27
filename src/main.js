@@ -7,7 +7,7 @@ import App from './components/App';
 const ACCEPTABLE_LANGUAGES = ['en', 'ja'];
 
 function getLocale() {
-  const locale = navigator.language;
+  const [locale] = (navigator.language || '').split('-', 1);
   return ACCEPTABLE_LANGUAGES.includes(locale) ? locale : 'en';
 }
 
