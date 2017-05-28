@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home container renders correctly 1`] = `
+<header
+  className="sc-bdVaJa keiair"
+>
+  <h1
+    className="sc-bwzfXH hekLpX"
+  >
+    <span>
+      MastodonKaigi
+    </span>
+  </h1>
+  <p
+    className="sc-htpNat kacuyk"
+  >
+    <span>
+      Welcome to MastodonKaigi's website!
+    </span>
+  </p>
+</header>
+`;
