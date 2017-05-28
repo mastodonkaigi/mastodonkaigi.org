@@ -30,6 +30,8 @@
     "eslint-plugin-react": "^7.0.1",
     "html-webpack-plugin": "^2.28.0",
     "jest": "^20.0.4",
+    "lint-staged": "^3.5.0",
+    "pre-commit": "^1.2.2",
     "react-test-renderer": "^16.0.0-alpha.12",
     "webpack": "^2.6.1",
     "webpack-dev-server": "^2.4.5"
@@ -37,10 +39,14 @@
   "homepage": "https://mastodonkaigi.org/",
   "license": "AGPL-3.0",
   "name": "mastodonkaigi",
+  "precommit": {
+    "run": "precommit"
+  },
   "private": true,
   "scripts": {
     "build": "webpack --env production",
     "lint": "eslint .",
+    "precommit": "lint-staged",
     "start": "webpack-dev-server",
     "test": "jest"
   },

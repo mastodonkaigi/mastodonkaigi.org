@@ -1,4 +1,5 @@
 module.exports = {
+  dotfiles: true,
   env: {
     browser: true,
   },
@@ -19,6 +20,6 @@ module.exports = {
       {
         extensions: ['.js'],
       },
-    ]
+    ],
   },
 };
