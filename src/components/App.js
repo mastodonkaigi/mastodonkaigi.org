@@ -20,7 +20,7 @@ export default class App extends Component {
 
   static propTypes = {
     locale: PropTypes.string,
-    messages: PropTypes.objectOf(PropTypes.string).isRequired,
+    messages: PropTypes.objectOf(PropTypes.string).isRequired
   };
 
   componentWillMount() {
@@ -37,7 +37,7 @@ export default class App extends Component {
     return (
       this.props.locale !== nextProps.locale,
       !isEqual(this.props.messages, nextProps.messages)
-    );
+    )
   }
 
   render() {
