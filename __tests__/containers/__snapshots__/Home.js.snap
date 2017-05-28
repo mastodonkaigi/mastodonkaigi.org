@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Home container renders correctly 1`] = `
+exports[`Home container renders English messages 1`] = `
 <header
   className="sc-bdVaJa keiair"
 >
@@ -16,6 +16,27 @@ exports[`Home container renders correctly 1`] = `
   >
     <span>
       Welcome to MastodonKaigi's website!
+    </span>
+  </p>
+</header>
+`;
+
+exports[`Home container renders Japanese messages 1`] = `
+<header
+  className="sc-bdVaJa keiair"
+>
+  <h1
+    className="sc-bwzfXH hekLpX"
+  >
+    <span>
+      MastodonKaigi
+    </span>
+  </h1>
+  <p
+    className="sc-htpNat kacuyk"
+  >
+    <span>
+      MastodonKaigiのウェブサイトへようこそ!
     </span>
   </p>
 </header>
