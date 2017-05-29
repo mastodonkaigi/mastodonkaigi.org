@@ -2,6 +2,10 @@
 
 MastodonKaigi website.
 
+## Contributing
+
+Please check [Contributing Guide](CONTRIBUTING.md).
+
 ## License
 
 [AGPL-3.0](LICENSE)
