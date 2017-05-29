@@ -1,4 +1,5 @@
 const BabiliPlugin = require('babili-webpack-plugin');
+const CopyPlugin = require('copy-webpack-plugin');
 const path = require('path');
 const { EnvironmentPlugin } = require('webpack');
 const HtmlPlugin = require('html-webpack-plugin');
@@ -51,6 +52,11 @@ module.exports = (env = process.env.NODE_ENV) => {
         title: 'MastodonKaigi',
       }),
       ...(env === 'production' ? [
+        new CopyPlugin([
+          {
+            from: path.resolve(__dirname, 'src', 'templates', '_redirects'),
+          },
+        ]),
         new BabiliPlugin(),
       ] : []),
     ],

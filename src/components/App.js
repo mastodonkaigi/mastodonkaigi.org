@@ -1,28 +1,16 @@
-import { isEqual } from 'lodash';
-import { grey } from 'material-colors';
-import PropTypes from 'prop-types';
 import React, { Component } from 'react';
-import { IntlProvider } from 'react-intl';
-import { Route } from 'react-router-dom';
-import styled, { injectGlobal } from 'styled-components';
-import Home from '../containers/Home';
+import { Redirect, Route, Switch } from 'react-router-dom';
+import { injectGlobal } from 'styled-components';
+import Main from './Main';
 
-const Root = styled.div`
-  color: ${grey['900']};
-  margin: 0;
-  padding: 0;
-`;
+export const ACCEPTABLE_LANGUAGES = ['en', 'ja'];
+
+function getLocale() {
+  const [locale] = (navigator.language || '').split('-', 1);
+  return ACCEPTABLE_LANGUAGES.includes(locale) ? locale : 'en';
+}
 
 export default class App extends Component {
-  static defaultProps = {
-    locale: 'en',
-  };
-
-  static propTypes = {
-    locale: PropTypes.string,
-    messages: PropTypes.objectOf(PropTypes.string).isRequired,
-  };
-
   componentWillMount() {
     injectGlobal`
       html, body {
@@ -33,21 +21,12 @@ export default class App extends Component {
     `;
   }
 
-  shouldComponentUpdate(nextProps) {
-    return (
-      this.props.locale !== nextProps.locale,
-      !isEqual(this.props.messages, nextProps.messages)
-    );
-  }
-
   render() {
-    const { locale, messages } = this.props;
     return (
-      <IntlProvider locale={locale} messages={messages}>
-        <Root lang={locale}>
-          <Route component={Home} exact path="/" />
-        </Root>
-      </IntlProvider>
+      <Switch>
+        <Route path="/:locale" render={props => <Main {...props} />} />
+        <Route render={() => <Redirect to={`/${getLocale()}/`} />} />
+      </Switch>
     );
   }
 }
