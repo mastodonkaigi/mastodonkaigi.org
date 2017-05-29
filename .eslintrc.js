@@ -1,5 +1,4 @@
 module.exports = {
-  dotfiles: true,
   env: {
     browser: true,
   },
