@@ -49,6 +49,7 @@
     "build": "webpack --env production",
     "lint": "eslint .",
     "precommit": "lint-staged",
+    "pretest": "yarn lint",
     "start": "webpack-dev-server",
     "test": "jest"
   },
