@@ -1,8 +1,9 @@
 const BabiliPlugin = require('babili-webpack-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
+const HtmlPlugin = require('html-webpack-plugin');
 const path = require('path');
 const { EnvironmentPlugin } = require('webpack');
-const HtmlPlugin = require('html-webpack-plugin');
+const SubResourceIntegrityPlugin = require('webpack-subresource-integrity');
 
 const HTML_MINIFIER_OPTIONS = {
   collapseBooleanAttributes: true,
@@ -38,6 +39,7 @@ module.exports = (env = process.env.NODE_ENV) => {
     },
     output: {
       chunkFilename: env === 'production' ? '[name].[chunkhash].js' : '[name].js?[chunkhash]',
+      crossOriginLoading: 'anonymous',
       filename: env === 'production' ? '[name].[chunkhash].js' : '[name].js?[chunkhash]',
       path: path.resolve(__dirname, 'public'),
       publicPath: '/',
@@ -52,6 +54,9 @@ module.exports = (env = process.env.NODE_ENV) => {
         title: 'MastodonKaigi',
       }),
       ...(env === 'production' ? [
+        new SubResourceIntegrityPlugin({
+          hashFuncNames: ['sha384'],
+        }),
         new CopyPlugin([
           {
             from: path.resolve(__dirname, 'src', 'templates', '_redirects'),
