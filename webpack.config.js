@@ -56,6 +56,9 @@ module.exports = (env = process.env.NODE_ENV) => {
           {
             from: path.resolve(__dirname, 'src', 'templates', '_redirects'),
           },
+          {
+            from: path.resolve(__dirname, 'src', 'templates', '_headers'),
+          },
         ]),
         new BabiliPlugin(),
       ] : []),
