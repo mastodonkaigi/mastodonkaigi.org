@@ -1,1 +1,2 @@
-/:locale/ /index.html 200
+/:locale/ / 200
+/:locale/* / 404
