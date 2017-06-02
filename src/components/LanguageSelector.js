@@ -2,7 +2,7 @@ import { isEqual } from 'lodash';
 import PropTypes from 'prop-types';
 import React, { Children, Component } from 'react';
 import { addLocaleData, IntlProvider } from 'react-intl';
-import LazyLoader from './LazyLoader';
+import { Redirect } from 'react-router-dom';
 
 export default class LanguageSelector extends Component {
   static defaultProps = {
@@ -22,7 +22,7 @@ export default class LanguageSelector extends Component {
   componentWillMount() {
     if (this.props.locale) {
       this.load(this.props).catch(() => {
-        this.setState({ errorComponent: <LazyLoader name="NoMatch" /> });
+        this.setState({ errorComponent: <Redirect to="/" /> });
       });
     }
   }
