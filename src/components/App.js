@@ -3,11 +3,12 @@ import { Redirect, Route, Switch } from 'react-router-dom';
 import { injectGlobal } from 'styled-components';
 import Main from './Main';
 
+export const DEFAULT_LANGUAGE = 'en';
 export const ACCEPTABLE_LANGUAGES = ['en', 'ja'];
 
 function getLocale() {
   const [locale] = (navigator.language || '').split('-', 1);
-  return ACCEPTABLE_LANGUAGES.includes(locale) ? locale : 'en';
+  return ACCEPTABLE_LANGUAGES.includes(locale) ? locale : DEFAULT_LANGUAGE;
 }
 
 export default class App extends Component {
