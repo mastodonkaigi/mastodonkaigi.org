@@ -1,2 +1,5 @@
+/*
+  Content-Security-Policy: child-src https:; connect-src 'self'; default-src 'self'; font-src 'self'; img-src https: data:; media-src https:; object-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'
+
 /*.js
   Cache-Control: max-age=31536000, public, immutable
