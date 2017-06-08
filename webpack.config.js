@@ -57,14 +57,9 @@ module.exports = (env = process.env.NODE_ENV) => {
         new SubResourceIntegrityPlugin({
           hashFuncNames: ['sha384'],
         }),
-        new CopyPlugin([
-          {
-            from: path.resolve(__dirname, 'src', 'templates', '_redirects'),
-          },
-          {
-            from: path.resolve(__dirname, 'src', 'templates', '_headers'),
-          },
-        ]),
+        new CopyPlugin(['_redirects', '_headers', 'favicon.ico'].map(filename => ({
+          from: path.resolve(__dirname, 'src', 'templates', filename),
+        }))),
         new BabiliPlugin(),
       ] : []),
     ],
