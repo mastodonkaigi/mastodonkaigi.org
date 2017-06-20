@@ -7,7 +7,7 @@
     "material-colors": "^1.2.5",
     "prop-types": "^15.5.10",
     "react": "^16.0.0-alpha.13",
-    "react-dom": "^16.0.0-alpha.12",
+    "react-dom": "^16.0.0-alpha.13",
     "react-intl": "^2.3.0",
     "react-router-dom": "^4.1.1",
     "styled-components": "^2.0.0"
