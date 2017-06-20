@@ -35,7 +35,7 @@
     "lint-staged": "^4.0.0",
     "pre-commit": "^1.2.2",
     "react-test-renderer": "^16.0.0-alpha.13",
-    "webpack": "^2.6.1",
+    "webpack": "^3.0.0",
     "webpack-dev-server": "^2.4.5",
     "webpack-subresource-integrity": "^1.0.0-rc.1"
   },
