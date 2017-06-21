@@ -2,7 +2,10 @@ const BabiliPlugin = require('babili-webpack-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
 const HtmlPlugin = require('html-webpack-plugin');
 const path = require('path');
-const { EnvironmentPlugin } = require('webpack');
+const {
+  EnvironmentPlugin,
+  optimize: { ModuleConcatenationPlugin },
+} = require('webpack');
 const SubResourceIntegrityPlugin = require('webpack-subresource-integrity');
 
 const HTML_MINIFIER_OPTIONS = {
@@ -48,6 +51,7 @@ module.exports = (env = process.env.NODE_ENV) => {
       new EnvironmentPlugin({
         NODE_ENV: env || 'development',
       }),
+      new ModuleConcatenationPlugin(),
       new HtmlPlugin({
         minify: env === 'production' ? HTML_MINIFIER_OPTIONS : false,
         template: path.resolve(__dirname, 'src', 'templates', 'index.html.ejs'),
