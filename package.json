@@ -16,7 +16,7 @@
   "devDependencies": {
     "babel-core": "^7.0.0-alpha.12",
     "babel-eslint": "^7.2.3",
-    "babel-loader": "^7.0.0",
+    "babel-loader": "^7.1.0",
     "babel-plugin-lodash": "^3.2.11",
     "babel-plugin-syntax-dynamic-import": "^7.0.0-alpha.12",
     "babel-plugin-transform-class-properties": "^7.0.0-alpha.12",
@@ -36,7 +36,7 @@
     "pre-commit": "^1.2.2",
     "react-test-renderer": "^16.0.0-alpha.13",
     "webpack": "^3.0.0",
-    "webpack-dev-server": "^2.4.5",
+    "webpack-dev-server": "^2.5.0",
     "webpack-subresource-integrity": "^1.0.0-rc.1"
   },
   "homepage": "https://mastodonkaigi.org/",
