@@ -23,7 +23,7 @@
     "babel-plugin-transform-es2015-modules-commonjs": "^7.0.0-alpha.12",
     "babel-plugin-transform-object-rest-spread": "^7.0.0-alpha.12",
     "babel-preset-react": "^7.0.0-alpha.12",
-    "babili-webpack-plugin": "^0.1.1",
+    "babili-webpack-plugin": "^0.1.2",
     "copy-webpack-plugin": "^4.0.1",
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^15.0.1",
