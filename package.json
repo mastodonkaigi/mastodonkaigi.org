@@ -37,7 +37,7 @@
     "react-test-renderer": "^16.0.0-alpha.13",
     "webpack": "^3.0.0",
     "webpack-dev-server": "^2.5.0",
-    "webpack-subresource-integrity": "^1.0.0-rc.1"
+    "webpack-subresource-integrity": "^1.0.1"
   },
   "homepage": "https://mastodonkaigi.org/",
   "license": "AGPL-3.0",
