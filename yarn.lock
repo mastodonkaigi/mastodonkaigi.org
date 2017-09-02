@@ -1981,6 +1981,18 @@ execa@^0.7.0:
     signal-exit "^3.0.0"
     strip-eof "^1.0.0"
 
+execa@^0.8.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/execa/-/execa-0.8.0.tgz#d8d76bbc1b55217ed190fd6dd49d3c774ecfc8da"
+  dependencies:
+    cross-spawn "^5.0.1"
+    get-stream "^3.0.0"
+    is-stream "^1.1.0"
+    npm-run-path "^2.0.0"
+    p-finally "^1.0.0"
+    signal-exit "^3.0.0"
+    strip-eof "^1.0.0"
+
 exit-hook@^1.0.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/exit-hook/-/exit-hook-1.1.1.tgz#f05ca233b48c05d54fff07765df8507e95c02ff8"
@@ -3319,13 +3331,13 @@ levn@^0.3.0, levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
-lint-staged@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-4.0.0.tgz#c15669f598614a6e68090303e175a799d48e0d85"
+lint-staged@^4.0.4:
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-4.0.4.tgz#9ca6968b30dfbfe81365b7a763cd4f4992896553"
   dependencies:
     app-root-path "^2.0.0"
     cosmiconfig "^1.1.0"
-    execa "^0.7.0"
+    execa "^0.8.0"
     listr "^0.12.0"
     lodash.chunk "^4.2.0"
     minimatch "^3.0.0"
