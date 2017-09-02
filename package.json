@@ -6,8 +6,8 @@
     "lodash": "^4.17.4",
     "material-colors": "^1.2.5",
     "prop-types": "^15.5.10",
-    "react": "^16.0.0-alpha.13",
-    "react-dom": "^16.0.0-alpha.13",
+    "react": "^16.0.0-beta.5",
+    "react-dom": "^16.0.0-beta.5",
     "react-intl": "^2.3.0",
     "react-router-dom": "^4.2.2",
     "styled-components": "^2.1.2"
@@ -34,7 +34,7 @@
     "jest": "^20.0.4",
     "lint-staged": "^4.0.4",
     "pre-commit": "^1.2.2",
-    "react-test-renderer": "^16.0.0-alpha.13",
+    "react-test-renderer": "^16.0.0-beta.5",
     "webpack": "^3.5.5",
     "webpack-dev-server": "^2.7.1",
     "webpack-subresource-integrity": "^1.0.1"
