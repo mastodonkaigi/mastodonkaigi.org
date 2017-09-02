@@ -289,27 +289,11 @@ axobject-query@^0.1.0:
   dependencies:
     ast-types-flow "0.0.7"
 
-babel-code-frame@7.0.0-alpha.12:
-  version "7.0.0-alpha.12"
-  resolved "https://registry.yarnpkg.com/babel-code-frame/-/babel-code-frame-7.0.0-alpha.12.tgz#26fbb2eab1c20763271fecb6b04a108756fae61f"
-  dependencies:
-    chalk "^1.1.0"
-    esutils "^2.0.2"
-    js-tokens "^3.0.0"
-
 babel-code-frame@7.0.0-alpha.20:
   version "7.0.0-alpha.20"
   resolved "https://registry.yarnpkg.com/babel-code-frame/-/babel-code-frame-7.0.0-alpha.20.tgz#b821248e62d61167c3fb6b4f9523820f5bb82c47"
   dependencies:
     chalk "^2.0.0"
-    esutils "^2.0.2"
-    js-tokens "^3.0.0"
-
-babel-code-frame@7.0.0-alpha.3:
-  version "7.0.0-alpha.3"
-  resolved "https://registry.yarnpkg.com/babel-code-frame/-/babel-code-frame-7.0.0-alpha.3.tgz#9ff265eaaac94b58dfc7ca4a4eecf389d5f4d344"
-  dependencies:
-    chalk "^1.1.0"
     esutils "^2.0.2"
     js-tokens "^3.0.0"
 
@@ -398,11 +382,11 @@ babel-generator@^6.18.0, babel-generator@^6.25.0:
     source-map "^0.5.0"
     trim-right "^1.0.1"
 
-babel-helper-builder-react-jsx@7.0.0-alpha.12:
-  version "7.0.0-alpha.12"
-  resolved "https://registry.yarnpkg.com/babel-helper-builder-react-jsx/-/babel-helper-builder-react-jsx-7.0.0-alpha.12.tgz#0a5feef3fd55da128f203f4008d975b339446506"
+babel-helper-builder-react-jsx@7.0.0-alpha.20:
+  version "7.0.0-alpha.20"
+  resolved "https://registry.yarnpkg.com/babel-helper-builder-react-jsx/-/babel-helper-builder-react-jsx-7.0.0-alpha.20.tgz#910df74a3a4733c91f30f291416f8fbc7fb05908"
   dependencies:
-    babel-types "7.0.0-alpha.12"
+    babel-types "7.0.0-alpha.20"
     esutils "^2.0.0"
 
 babel-helper-evaluate-path@^0.1.0:
@@ -413,15 +397,6 @@ babel-helper-flip-expressions@^0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/babel-helper-flip-expressions/-/babel-helper-flip-expressions-0.1.2.tgz#77f6652f9de9c42401d827bd46ebd2109e3ef18a"
 
-babel-helper-function-name@7.0.0-alpha.12:
-  version "7.0.0-alpha.12"
-  resolved "https://registry.yarnpkg.com/babel-helper-function-name/-/babel-helper-function-name-7.0.0-alpha.12.tgz#69ad0d8df236cefa8824989148742ba757ea459b"
-  dependencies:
-    babel-helper-get-function-arity "7.0.0-alpha.12"
-    babel-template "7.0.0-alpha.12"
-    babel-traverse "7.0.0-alpha.12"
-    babel-types "7.0.0-alpha.12"
-
 babel-helper-function-name@7.0.0-alpha.20:
   version "7.0.0-alpha.20"
   resolved "https://registry.yarnpkg.com/babel-helper-function-name/-/babel-helper-function-name-7.0.0-alpha.20.tgz#b560517ad8a6ca3029ac28bf558ef04bbfd8af85"
@@ -431,32 +406,11 @@ babel-helper-function-name@7.0.0-alpha.20:
     babel-traverse "7.0.0-alpha.20"
     babel-types "7.0.0-alpha.20"
 
-babel-helper-function-name@7.0.0-alpha.7:
-  version "7.0.0-alpha.7"
-  resolved "https://registry.yarnpkg.com/babel-helper-function-name/-/babel-helper-function-name-7.0.0-alpha.7.tgz#19aecddc5402f941c5726802993077b41ea9832d"
-  dependencies:
-    babel-helper-get-function-arity "7.0.0-alpha.7"
-    babel-template "7.0.0-alpha.7"
-    babel-traverse "7.0.0-alpha.7"
-    babel-types "7.0.0-alpha.7"
-
-babel-helper-get-function-arity@7.0.0-alpha.12:
-  version "7.0.0-alpha.12"
-  resolved "https://registry.yarnpkg.com/babel-helper-get-function-arity/-/babel-helper-get-function-arity-7.0.0-alpha.12.tgz#91f44a26eda18b0ab336cf0aa4e3127813798d3d"
-  dependencies:
-    babel-types "7.0.0-alpha.12"
-
 babel-helper-get-function-arity@7.0.0-alpha.20:
   version "7.0.0-alpha.20"
   resolved "https://registry.yarnpkg.com/babel-helper-get-function-arity/-/babel-helper-get-function-arity-7.0.0-alpha.20.tgz#4e8f598b2ab20e84634038c976ef5ee71c7d79cd"
   dependencies:
     babel-types "7.0.0-alpha.20"
-
-babel-helper-get-function-arity@7.0.0-alpha.7:
-  version "7.0.0-alpha.7"
-  resolved "https://registry.yarnpkg.com/babel-helper-get-function-arity/-/babel-helper-get-function-arity-7.0.0-alpha.7.tgz#16e6526ecefc5537826012365e577de2ccba02f5"
-  dependencies:
-    babel-types "7.0.0-alpha.7"
 
 babel-helper-is-nodes-equiv@^0.0.1:
   version "0.0.1"
@@ -507,17 +461,9 @@ babel-loader@^7.1.2:
     loader-utils "^1.0.2"
     mkdirp "^0.5.1"
 
-babel-messages@7.0.0-alpha.12:
-  version "7.0.0-alpha.12"
-  resolved "https://registry.yarnpkg.com/babel-messages/-/babel-messages-7.0.0-alpha.12.tgz#5fda840cb8dfeda06a7894a1e8ab1af695f249c0"
-
 babel-messages@7.0.0-alpha.20:
   version "7.0.0-alpha.20"
   resolved "https://registry.yarnpkg.com/babel-messages/-/babel-messages-7.0.0-alpha.20.tgz#bba0ade0a6bced2e9e4cd4f42665b44ad9223f0f"
-
-babel-messages@7.0.0-alpha.3:
-  version "7.0.0-alpha.3"
-  resolved "https://registry.yarnpkg.com/babel-messages/-/babel-messages-7.0.0-alpha.3.tgz#c8390a468478b8384da134612e12a6bc31a684e9"
 
 babel-messages@^6.23.0:
   version "6.23.0"
@@ -608,47 +554,37 @@ babel-plugin-minify-type-constructors@^0.1.2:
   dependencies:
     babel-helper-is-void-0 "^0.1.1"
 
-babel-plugin-syntax-class-properties@7.0.0-alpha.12:
-  version "7.0.0-alpha.12"
-  resolved "https://registry.yarnpkg.com/babel-plugin-syntax-class-properties/-/babel-plugin-syntax-class-properties-7.0.0-alpha.12.tgz#debe4c688eb6b4898149b841368f173d26a8eb32"
+babel-plugin-syntax-class-properties@7.0.0-alpha.20:
+  version "7.0.0-alpha.20"
+  resolved "https://registry.yarnpkg.com/babel-plugin-syntax-class-properties/-/babel-plugin-syntax-class-properties-7.0.0-alpha.20.tgz#7ce8f82de7a49450ac68367aea1f7f3ac9e8a83a"
 
-babel-plugin-syntax-dynamic-import@^7.0.0-alpha.12:
-  version "7.0.0-alpha.12"
-  resolved "https://registry.yarnpkg.com/babel-plugin-syntax-dynamic-import/-/babel-plugin-syntax-dynamic-import-7.0.0-alpha.12.tgz#7f547c6989505becb4b3b730b7b4b324e4e309e5"
+babel-plugin-syntax-dynamic-import@^7.0.0-alpha.20:
+  version "7.0.0-alpha.20"
+  resolved "https://registry.yarnpkg.com/babel-plugin-syntax-dynamic-import/-/babel-plugin-syntax-dynamic-import-7.0.0-alpha.20.tgz#7af9161e5cfbdea0f43ffcc3fa1238231cd629ee"
 
-babel-plugin-syntax-flow@7.0.0-alpha.12:
-  version "7.0.0-alpha.12"
-  resolved "https://registry.yarnpkg.com/babel-plugin-syntax-flow/-/babel-plugin-syntax-flow-7.0.0-alpha.12.tgz#8c1b26c26bd802ff2b67b886c32bd2891227d93c"
+babel-plugin-syntax-jsx@7.0.0-alpha.20:
+  version "7.0.0-alpha.20"
+  resolved "https://registry.yarnpkg.com/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-7.0.0-alpha.20.tgz#039bb7f8db206b77e6770bf982cf806cf4eb8678"
 
-babel-plugin-syntax-jsx@7.0.0-alpha.12:
-  version "7.0.0-alpha.12"
-  resolved "https://registry.yarnpkg.com/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-7.0.0-alpha.12.tgz#c6935db402537860f6ca9b35f21a28191ce97e58"
+babel-plugin-syntax-object-rest-spread@7.0.0-alpha.20:
+  version "7.0.0-alpha.20"
+  resolved "https://registry.yarnpkg.com/babel-plugin-syntax-object-rest-spread/-/babel-plugin-syntax-object-rest-spread-7.0.0-alpha.20.tgz#0fe2d657cff408f93afff5f89d130f98642567de"
 
-babel-plugin-syntax-object-rest-spread@7.0.0-alpha.12:
-  version "7.0.0-alpha.12"
-  resolved "https://registry.yarnpkg.com/babel-plugin-syntax-object-rest-spread/-/babel-plugin-syntax-object-rest-spread-7.0.0-alpha.12.tgz#b62b9027778a8ae79c3b2f82f18a52145c438cf4"
-
-babel-plugin-transform-class-properties@^7.0.0-alpha.12:
-  version "7.0.0-alpha.12"
-  resolved "https://registry.yarnpkg.com/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-7.0.0-alpha.12.tgz#f7092def18f154d1b299b8db4f3e8c74c41c97ee"
+babel-plugin-transform-class-properties@^7.0.0-alpha.20:
+  version "7.0.0-alpha.20"
+  resolved "https://registry.yarnpkg.com/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-7.0.0-alpha.20.tgz#8d7d4f5c04af4981a66b62572205813b042bea7a"
   dependencies:
-    babel-helper-function-name "7.0.0-alpha.12"
-    babel-plugin-syntax-class-properties "7.0.0-alpha.12"
-    babel-template "7.0.0-alpha.12"
+    babel-helper-function-name "7.0.0-alpha.20"
+    babel-plugin-syntax-class-properties "7.0.0-alpha.20"
+    babel-template "7.0.0-alpha.20"
 
-babel-plugin-transform-es2015-modules-commonjs@^7.0.0-alpha.12:
-  version "7.0.0-alpha.12"
-  resolved "https://registry.yarnpkg.com/babel-plugin-transform-es2015-modules-commonjs/-/babel-plugin-transform-es2015-modules-commonjs-7.0.0-alpha.12.tgz#73441a8dfa0e48c17ce02afae95444d996dde2cb"
+babel-plugin-transform-es2015-modules-commonjs@^7.0.0-alpha.20:
+  version "7.0.0-alpha.20"
+  resolved "https://registry.yarnpkg.com/babel-plugin-transform-es2015-modules-commonjs/-/babel-plugin-transform-es2015-modules-commonjs-7.0.0-alpha.20.tgz#e2ce9108c1216eec1acfaedc1d328eab821c2158"
   dependencies:
-    babel-plugin-transform-strict-mode "7.0.0-alpha.12"
-    babel-template "7.0.0-alpha.12"
-    babel-types "7.0.0-alpha.12"
-
-babel-plugin-transform-flow-strip-types@7.0.0-alpha.12:
-  version "7.0.0-alpha.12"
-  resolved "https://registry.yarnpkg.com/babel-plugin-transform-flow-strip-types/-/babel-plugin-transform-flow-strip-types-7.0.0-alpha.12.tgz#7f6747204af74612fe37258c185d0035266d5292"
-  dependencies:
-    babel-plugin-syntax-flow "7.0.0-alpha.12"
+    babel-plugin-transform-strict-mode "7.0.0-alpha.20"
+    babel-template "7.0.0-alpha.20"
+    babel-types "7.0.0-alpha.20"
 
 babel-plugin-transform-inline-consecutive-adds@^0.1.2:
   version "0.1.2"
@@ -666,11 +602,11 @@ babel-plugin-transform-minify-booleans@^6.8.2:
   version "6.8.2"
   resolved "https://registry.yarnpkg.com/babel-plugin-transform-minify-booleans/-/babel-plugin-transform-minify-booleans-6.8.2.tgz#8451579f706e702c1e1ab2756de5c8ea369cf07c"
 
-babel-plugin-transform-object-rest-spread@^7.0.0-alpha.12:
-  version "7.0.0-alpha.12"
-  resolved "https://registry.yarnpkg.com/babel-plugin-transform-object-rest-spread/-/babel-plugin-transform-object-rest-spread-7.0.0-alpha.12.tgz#a90231e13377e623f1dc440cdbc800ea9da7a81d"
+babel-plugin-transform-object-rest-spread@^7.0.0-alpha.20:
+  version "7.0.0-alpha.20"
+  resolved "https://registry.yarnpkg.com/babel-plugin-transform-object-rest-spread/-/babel-plugin-transform-object-rest-spread-7.0.0-alpha.20.tgz#ef3b3a463fa28df20476e9332a546f34929465ea"
   dependencies:
-    babel-plugin-syntax-object-rest-spread "7.0.0-alpha.12"
+    babel-plugin-syntax-object-rest-spread "7.0.0-alpha.20"
 
 babel-plugin-transform-property-literals@^6.8.4:
   version "6.8.4"
@@ -678,28 +614,28 @@ babel-plugin-transform-property-literals@^6.8.4:
   dependencies:
     esutils "^2.0.2"
 
-babel-plugin-transform-react-display-name@7.0.0-alpha.12:
-  version "7.0.0-alpha.12"
-  resolved "https://registry.yarnpkg.com/babel-plugin-transform-react-display-name/-/babel-plugin-transform-react-display-name-7.0.0-alpha.12.tgz#9cf637e519a1e2aab6a9d6b852dc62f16ae7deba"
+babel-plugin-transform-react-display-name@7.0.0-alpha.20:
+  version "7.0.0-alpha.20"
+  resolved "https://registry.yarnpkg.com/babel-plugin-transform-react-display-name/-/babel-plugin-transform-react-display-name-7.0.0-alpha.20.tgz#ecc70f4cdd1c26012761ccbdbfeecc6d6f71289b"
 
-babel-plugin-transform-react-jsx-self@7.0.0-alpha.12:
-  version "7.0.0-alpha.12"
-  resolved "https://registry.yarnpkg.com/babel-plugin-transform-react-jsx-self/-/babel-plugin-transform-react-jsx-self-7.0.0-alpha.12.tgz#af2d06c34af9683dc9204125af2082da0b7d6181"
+babel-plugin-transform-react-jsx-self@7.0.0-alpha.20:
+  version "7.0.0-alpha.20"
+  resolved "https://registry.yarnpkg.com/babel-plugin-transform-react-jsx-self/-/babel-plugin-transform-react-jsx-self-7.0.0-alpha.20.tgz#6735ddb2781defcf8c89fd76e9d54a9480441473"
   dependencies:
-    babel-plugin-syntax-jsx "7.0.0-alpha.12"
+    babel-plugin-syntax-jsx "7.0.0-alpha.20"
 
-babel-plugin-transform-react-jsx-source@7.0.0-alpha.12:
-  version "7.0.0-alpha.12"
-  resolved "https://registry.yarnpkg.com/babel-plugin-transform-react-jsx-source/-/babel-plugin-transform-react-jsx-source-7.0.0-alpha.12.tgz#4c75570fcb198b78875b6b14ffa7c76e68afadc5"
+babel-plugin-transform-react-jsx-source@7.0.0-alpha.20:
+  version "7.0.0-alpha.20"
+  resolved "https://registry.yarnpkg.com/babel-plugin-transform-react-jsx-source/-/babel-plugin-transform-react-jsx-source-7.0.0-alpha.20.tgz#8e40c2208c25adc49c2d38fb49d3e1e47d0cc195"
   dependencies:
-    babel-plugin-syntax-jsx "7.0.0-alpha.12"
+    babel-plugin-syntax-jsx "7.0.0-alpha.20"
 
-babel-plugin-transform-react-jsx@7.0.0-alpha.12:
-  version "7.0.0-alpha.12"
-  resolved "https://registry.yarnpkg.com/babel-plugin-transform-react-jsx/-/babel-plugin-transform-react-jsx-7.0.0-alpha.12.tgz#e8af240bbb4ee8900a7f9dca901979fc2e06034e"
+babel-plugin-transform-react-jsx@7.0.0-alpha.20:
+  version "7.0.0-alpha.20"
+  resolved "https://registry.yarnpkg.com/babel-plugin-transform-react-jsx/-/babel-plugin-transform-react-jsx-7.0.0-alpha.20.tgz#b1779a75e0bc9da85e10464f9139e0dc78251cce"
   dependencies:
-    babel-helper-builder-react-jsx "7.0.0-alpha.12"
-    babel-plugin-syntax-jsx "7.0.0-alpha.12"
+    babel-helper-builder-react-jsx "7.0.0-alpha.20"
+    babel-plugin-syntax-jsx "7.0.0-alpha.20"
 
 babel-plugin-transform-regexp-constructors@^0.1.1:
   version "0.1.1"
@@ -721,11 +657,11 @@ babel-plugin-transform-simplify-comparison-operators@^6.8.4:
   version "6.8.4"
   resolved "https://registry.yarnpkg.com/babel-plugin-transform-simplify-comparison-operators/-/babel-plugin-transform-simplify-comparison-operators-6.8.4.tgz#2aa24a262d664c8cb3e125a306c798d7a2de08d5"
 
-babel-plugin-transform-strict-mode@7.0.0-alpha.12:
-  version "7.0.0-alpha.12"
-  resolved "https://registry.yarnpkg.com/babel-plugin-transform-strict-mode/-/babel-plugin-transform-strict-mode-7.0.0-alpha.12.tgz#b6e64a2cb89705ceea244052e8d51e43207e13fc"
+babel-plugin-transform-strict-mode@7.0.0-alpha.20:
+  version "7.0.0-alpha.20"
+  resolved "https://registry.yarnpkg.com/babel-plugin-transform-strict-mode/-/babel-plugin-transform-strict-mode-7.0.0-alpha.20.tgz#4b7c54af6fe0cb8742a6a821d5cf55b103afdcbc"
   dependencies:
-    babel-types "7.0.0-alpha.12"
+    babel-types "7.0.0-alpha.20"
 
 babel-plugin-transform-undefined-to-void@^6.8.2:
   version "6.8.2"
@@ -759,28 +695,21 @@ babel-preset-babili@^0.1.4:
     babel-plugin-transform-undefined-to-void "^6.8.2"
     lodash.isplainobject "^4.0.6"
 
-babel-preset-flow@7.0.0-alpha.12:
-  version "7.0.0-alpha.12"
-  resolved "https://registry.yarnpkg.com/babel-preset-flow/-/babel-preset-flow-7.0.0-alpha.12.tgz#ba9454e9ac6c92f7699c53681a7089065f29ef64"
-  dependencies:
-    babel-plugin-transform-flow-strip-types "7.0.0-alpha.12"
-
 babel-preset-jest@^20.0.3:
   version "20.0.3"
   resolved "https://registry.yarnpkg.com/babel-preset-jest/-/babel-preset-jest-20.0.3.tgz#cbacaadecb5d689ca1e1de1360ebfc66862c178a"
   dependencies:
     babel-plugin-jest-hoist "^20.0.3"
 
-babel-preset-react@^7.0.0-alpha.12:
-  version "7.0.0-alpha.12"
-  resolved "https://registry.yarnpkg.com/babel-preset-react/-/babel-preset-react-7.0.0-alpha.12.tgz#80d5d827a48fa1bd6da3875c5a3be3ef6e40f66c"
+babel-preset-react@^7.0.0-alpha.20:
+  version "7.0.0-alpha.20"
+  resolved "https://registry.yarnpkg.com/babel-preset-react/-/babel-preset-react-7.0.0-alpha.20.tgz#24cd7d8a55edefb32ab7387f59a9b08b88106faa"
   dependencies:
-    babel-plugin-syntax-jsx "7.0.0-alpha.12"
-    babel-plugin-transform-react-display-name "7.0.0-alpha.12"
-    babel-plugin-transform-react-jsx "7.0.0-alpha.12"
-    babel-plugin-transform-react-jsx-self "7.0.0-alpha.12"
-    babel-plugin-transform-react-jsx-source "7.0.0-alpha.12"
-    babel-preset-flow "7.0.0-alpha.12"
+    babel-plugin-syntax-jsx "7.0.0-alpha.20"
+    babel-plugin-transform-react-display-name "7.0.0-alpha.20"
+    babel-plugin-transform-react-jsx "7.0.0-alpha.20"
+    babel-plugin-transform-react-jsx-self "7.0.0-alpha.20"
+    babel-plugin-transform-react-jsx-source "7.0.0-alpha.20"
 
 babel-register@^6.24.1:
   version "6.24.1"
@@ -801,15 +730,6 @@ babel-runtime@^6.22.0:
     core-js "^2.4.0"
     regenerator-runtime "^0.10.0"
 
-babel-template@7.0.0-alpha.12:
-  version "7.0.0-alpha.12"
-  resolved "https://registry.yarnpkg.com/babel-template/-/babel-template-7.0.0-alpha.12.tgz#f41e395ab0bb9ea26d04e968cdcf703adbaec78a"
-  dependencies:
-    babel-traverse "7.0.0-alpha.12"
-    babel-types "7.0.0-alpha.12"
-    babylon "7.0.0-beta.12"
-    lodash "^4.2.0"
-
 babel-template@7.0.0-alpha.20:
   version "7.0.0-alpha.20"
   resolved "https://registry.yarnpkg.com/babel-template/-/babel-template-7.0.0-alpha.20.tgz#2ddab1b03a9eb8a98e7f9920cb4dc1816430db80"
@@ -817,15 +737,6 @@ babel-template@7.0.0-alpha.20:
     babel-traverse "7.0.0-alpha.20"
     babel-types "7.0.0-alpha.20"
     babylon "7.0.0-beta.22"
-    lodash "^4.2.0"
-
-babel-template@7.0.0-alpha.7:
-  version "7.0.0-alpha.7"
-  resolved "https://registry.yarnpkg.com/babel-template/-/babel-template-7.0.0-alpha.7.tgz#82e26500980d1b3f14d9ebe8ae8b9325dc158392"
-  dependencies:
-    babel-traverse "7.0.0-alpha.7"
-    babel-types "7.0.0-alpha.7"
-    babylon "7.0.0-beta.8"
     lodash "^4.2.0"
 
 babel-template@^6.16.0, babel-template@^6.24.1, babel-template@^6.25.0:
@@ -836,20 +747,6 @@ babel-template@^6.16.0, babel-template@^6.24.1, babel-template@^6.25.0:
     babel-traverse "^6.25.0"
     babel-types "^6.25.0"
     babylon "^6.17.2"
-    lodash "^4.2.0"
-
-babel-traverse@7.0.0-alpha.12:
-  version "7.0.0-alpha.12"
-  resolved "https://registry.yarnpkg.com/babel-traverse/-/babel-traverse-7.0.0-alpha.12.tgz#0c0855a60287e56e54cf61ea9f135cdf759d6ad0"
-  dependencies:
-    babel-code-frame "7.0.0-alpha.12"
-    babel-helper-function-name "7.0.0-alpha.7"
-    babel-messages "7.0.0-alpha.12"
-    babel-types "7.0.0-alpha.12"
-    babylon "7.0.0-beta.12"
-    debug "^2.2.0"
-    globals "^9.0.0"
-    invariant "^2.2.0"
     lodash "^4.2.0"
 
 babel-traverse@7.0.0-alpha.20:
@@ -863,19 +760,6 @@ babel-traverse@7.0.0-alpha.20:
     babylon "7.0.0-beta.22"
     debug "^2.2.0"
     globals "^10.0.0"
-    invariant "^2.2.0"
-    lodash "^4.2.0"
-
-babel-traverse@7.0.0-alpha.7:
-  version "7.0.0-alpha.7"
-  resolved "https://registry.yarnpkg.com/babel-traverse/-/babel-traverse-7.0.0-alpha.7.tgz#61cc89061b0ad0a5f9fc6df81117fac428bc4148"
-  dependencies:
-    babel-code-frame "7.0.0-alpha.3"
-    babel-messages "7.0.0-alpha.3"
-    babel-types "7.0.0-alpha.7"
-    babylon "7.0.0-beta.8"
-    debug "^2.2.0"
-    globals "^9.0.0"
     invariant "^2.2.0"
     lodash "^4.2.0"
 
@@ -893,14 +777,6 @@ babel-traverse@^6.18.0, babel-traverse@^6.23.1, babel-traverse@^6.25.0:
     invariant "^2.2.0"
     lodash "^4.2.0"
 
-babel-types@7.0.0-alpha.12:
-  version "7.0.0-alpha.12"
-  resolved "https://registry.yarnpkg.com/babel-types/-/babel-types-7.0.0-alpha.12.tgz#d7b2c6d0c49c518fd36de5ac14f4f50bed6de7e5"
-  dependencies:
-    esutils "^2.0.2"
-    lodash "^4.2.0"
-    to-fast-properties "^1.0.1"
-
 babel-types@7.0.0-alpha.20:
   version "7.0.0-alpha.20"
   resolved "https://registry.yarnpkg.com/babel-types/-/babel-types-7.0.0-alpha.20.tgz#1c1ae1068b61360fbacd1a52a63bccc96d80da8f"
@@ -908,14 +784,6 @@ babel-types@7.0.0-alpha.20:
     esutils "^2.0.2"
     lodash "^4.2.0"
     to-fast-properties "^2.0.0"
-
-babel-types@7.0.0-alpha.7:
-  version "7.0.0-alpha.7"
-  resolved "https://registry.yarnpkg.com/babel-types/-/babel-types-7.0.0-alpha.7.tgz#4bdb77386d1f6e2001f42fa9ac21b6c3d6ad0d82"
-  dependencies:
-    esutils "^2.0.2"
-    lodash "^4.2.0"
-    to-fast-properties "^1.0.1"
 
 babel-types@^6.18.0, babel-types@^6.23.0, babel-types@^6.25.0:
   version "6.25.0"
@@ -934,17 +802,9 @@ babili-webpack-plugin@^0.1.2:
     babel-preset-babili "^0.1.4"
     webpack-sources "^1.0.1"
 
-babylon@7.0.0-beta.12:
-  version "7.0.0-beta.12"
-  resolved "https://registry.yarnpkg.com/babylon/-/babylon-7.0.0-beta.12.tgz#f7b9c8a89ff7d6afb57b906d947a4237f9bf53f9"
-
 babylon@7.0.0-beta.22:
   version "7.0.0-beta.22"
   resolved "https://registry.yarnpkg.com/babylon/-/babylon-7.0.0-beta.22.tgz#74f0ad82ed7c7c3cfeab74cf684f815104161b65"
-
-babylon@7.0.0-beta.8:
-  version "7.0.0-beta.8"
-  resolved "https://registry.yarnpkg.com/babylon/-/babylon-7.0.0-beta.8.tgz#2bdc5ae366041442c27e068cce6f0d7c06ea9949"
 
 babylon@^6.13.0, babylon@^6.17.0, babylon@^6.17.2:
   version "6.17.4"
