@@ -35,8 +35,8 @@
     "lint-staged": "^4.0.0",
     "pre-commit": "^1.2.2",
     "react-test-renderer": "^16.0.0-alpha.13",
-    "webpack": "^3.0.0",
-    "webpack-dev-server": "^2.5.0",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1",
     "webpack-subresource-integrity": "^1.0.1"
   },
   "homepage": "https://mastodonkaigi.org/",
