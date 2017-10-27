@@ -1,4 +1,4 @@
-const BabiliPlugin = require('babili-webpack-plugin');
+const MinifyPlugin = require('babel-minify-webpack-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
 const HtmlPlugin = require('html-webpack-plugin');
 const path = require('path');
@@ -64,7 +64,7 @@ module.exports = (env = process.env.NODE_ENV) => {
         new CopyPlugin(['_redirects', '_headers', 'favicon.ico'].map(filename => ({
           from: path.resolve(__dirname, 'src', 'templates', filename),
         }))),
-        new BabiliPlugin(),
+        new MinifyPlugin(),
       ] : []),
     ],
   };
