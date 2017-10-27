@@ -13,11 +13,12 @@ const render = (element, container) => new Promise((resolve, reject) => {
 
 async function main() {
   const container = document.getElementById('root');
-  await render((
+  await render(
     <Router>
       <App />
-    </Router>
-  ), container);
+    </Router>,
+    container,
+  );
 }
 
 main();
