@@ -1,6 +1,7 @@
 const MinifyPlugin = require('babel-minify-webpack-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
 const HtmlPlugin = require('html-webpack-plugin');
+const OfflinePlugin = require('offline-plugin');
 const path = require('path');
 const {
   EnvironmentPlugin,
@@ -66,6 +67,21 @@ module.exports = (env = process.env.NODE_ENV) => {
         }))),
         new MinifyPlugin(),
       ] : []),
+      new OfflinePlugin({
+        caches: {
+          additional: [],
+          externals: [],
+          main: [':rest:'],
+          optional: [],
+        },
+        externals: [
+          '/',
+        ],
+        publicPath: '/',
+        ServiceWorker: {
+          navigateFallbackURL: '/',
+        },
+      }),
     ],
   };
 };
