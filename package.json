@@ -3,7 +3,7 @@
     "name": "MastodonKaigi Team"
   },
   "dependencies": {
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.5",
     "material-colors": "^1.2.5",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
