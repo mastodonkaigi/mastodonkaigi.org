@@ -5,4 +5,7 @@ module.exports = {
     '<rootDir>/__tests__/.eslintrc.js',
   ],
   testURL: 'https://mastodonkaigi.test/',
+  transform: {
+    '^.+\\.js$': 'babel-jest',
+  },
 };
