@@ -1,0 +1,19 @@
+.hero {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 50vh;
+  justify-content: center;
+}
+
+.title {
+  font-size: 2.75rem;
+  margin: 0;
+  padding: 0;
+}
+
+.description {
+  font-size: 0.95rem;
+  margin: 0;
+  padding: 1rem 0;
+}
